@@ -1,0 +1,79 @@
+{block title}Movser{/block}
+{block pageName}Watchlist{/block}
+{block content}
+<div class="container">
+    <aside>
+        <section class="floating-section quick-actions">
+            <h2>Quick Actions</h2>
+            <ul class="quick-actions">
+                <li><a href="#">New Movie</a></li>
+                <li><a href="#">New Series</a></li>
+                <li><a href="#">New Anime</a></li>
+            </ul>
+        </section>
+
+        <nav class="floating-section filters">
+            <h2>Navigation</h2>
+            <ul class="navigation">
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Animes</a></li>
+            </ul>
+            <h2>Genres</h2>
+            <ul class="genres">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Mystery</a></li>
+                <!-- Add more genres dynamically with PHP -->
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section class="floating-section categories">
+            <h2>Categories</h2>
+            <div class="category-cards">
+                <div class="category-card">
+                    <a href="">
+                        <img src="upload/img/movies.jpg" alt="Movies">
+                        <span>Movies</span>
+                    </a>
+                </div>
+                <div class="category-card">
+                    <a href="">
+                        <img src="upload/img/series.jpg" alt="Series">
+                        <span>Series</span>
+                    </a>
+                </div>
+                <div class="category-card">
+                    <a href="">
+                        <img src="upload/img/anime.jpg" alt="Animes">
+                        <span>Animes</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="floating-section watchlist">
+            <h2>Watchlist</h2>
+            <div class="watchlist-items">
+                <div class="watchlist-item">
+                    <img src="upload/series/dark.jpg" alt="Dark">
+                    <div class="item-details">
+                        <h3>Dark</h3>
+                        <p>Category: Series | Genres: Mystery, Sci-Fi</p>
+                    </div>
+                </div>
+                <div class="watchlist-item">
+                    <img src="upload/movies/joker.webp" alt="Joker">
+                    <div class="item-details">
+                        <h3>Joker</h3>
+                        <p>Category: Movie | Genres: Drama, Thriller</p>
+                    </div>
+                </div>
+                <!-- Add more watchlist items as needed -->
+            </div>
+        </section>
+    </main>
+</div>
+{/block}
